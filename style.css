@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -140,6 +142,7 @@ button{
 .section3 {
     width: 100%;
     background-color: #000000;
+
 }
 .section3_d1 {
     display: flex;
@@ -186,4 +189,98 @@ button{
 
 .carousel-btn:hover {
     background-color: rgba(255, 255, 255, 0.233);
+}
+
+/* card container */
+
+.ecard {
+    display: flex;
+    margin-left: 115px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #412f2f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0 ,0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+margin-bottom: 10px;
+color: white;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+    
+
+
+}
+
+.product-price {
+ font-size: 1.2rem;
+ font-weight: bold;
+ color: #0056b3;
+ margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.buy-button:hover {
+    background-color: #007Bff;
+}
+.view-more {
+    text-align: center;
+} 
+
+/* footer section */
+
+.footer {
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+
+}
+
+.icn {
+background-color: white;
+border-radius: 100px;
+
+}
+
+.footer2 p a{
+    color: rgb(253, 253, 253);
 }
