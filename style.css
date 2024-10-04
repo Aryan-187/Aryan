@@ -305,15 +305,18 @@ input[ty]
 /* footer section */
 
 
-
-.footer {
+ .footer {
     width: 100%;
     padding-top: 3em;
     padding-bottom: 5em;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
   }
+
+ 
+  
   .footer h4 {
     margin-bottom: 15px;
   }
@@ -321,9 +324,10 @@ input[ty]
     background-color: white;
     border-radius: 100px;
   }
+
   .footer2 p a{
     color: rgb(253, 253, 253);
-  }
+  }   
 
 /* about us page */
 
@@ -339,7 +343,7 @@ input[ty]
 .about-us-container {
     max-width : 1250px;
     padding: 30px;
-    background-color: #fffff;
+    background-color: #ffffff;
 }
 
 

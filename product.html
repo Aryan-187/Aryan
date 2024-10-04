@@ -1,218 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bachelor</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- This is a header -->
-    <header>
-        <nav class="nav">
-            <ul class="nav_ul">
-                <li class="nav_li">
-                    <a href="/" class="nav_link">
-
-                        <img class="navlogo" src="./img/logo.png" height="50" alt="Navlogo" />
-
-                    </a>
+           <!-- This is  a header section  -->
+           <header>
+            <nav class="nav">
+              <ul class="nav_ul">
+                <li class="nav_li1">
+                  <a href="/" class="nav-link"> <!-- Link to the homepage or desired page -->
+                      <img
+                          class="navLogo"
+                          src="./img/logo.png"
+                          height="50"
+                          alt="NavLogo"
+                      />
+                  </a>
+              </li>
+              
+                <li class="nav_li2">
+                  <a href="./index.html">Home</a>
                 </li>
-                <li class="nav_li2"> <a href="./index.html"> Home</a>
+                <li class="nav_li3">
+                  <a href="./product.html">Product</a>
                 </li>
-                <li class="nav_li3"> <a href="./product.html">Product</a>
+                <li class="nav_li4">
+                  <a href="./about.html">About</a>
                 </li>
-                <li class="nav_li4"> <a href="./about.html">About</a>
+                <li class="nav_li5">
+                  <a href="./contact.html">Contact</a>
                 </li>
-                <li class="nav_li5"> <a href="./contact.html">Contact</a>
+                <li class="search nav_li6">
+                  <img
+                    src="./img/iconSearch.png"
+                    class="search"
+                    height="22"
+                    alt="search"
+                  />
+                  <input type="text" name="search" id="search" />
                 </li>
-                <li class="search nav_li6"> <img src="./img/iconsearch.png" class="search" height="22" alt="">
-                    <input type="text" name="search" id="search">
-
-                </li>
-                <li class="btn nav_li7 sign">
-                    <a href="signup.html">Sign Up</a>
-
+                <li class="btn nav_li7 signin">
+                  <a href="signup.html">SignUp</a>
                 </li>
                 <li class="btn nav_li8 login">
-                    <a href="./login.html"> Login</a>
+                  <a href="./login.html">Login</a>
                 </li>
-
-            </ul>
-
-        </nav>
-    </header>
-    <h1 style="margin-left: 10%;">Our Products</h1>
-
-
-    <div class="ecard"   style="
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto adjust columns */
-        gap: 20px;
-        padding: 20px;
-        background-color: #f5f5f5; /* A light background to highlight your products */"
-      >
-        <div class="card">
-            <img src="./img/headphone10.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">68.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
+              </ul>
+            </nav>
+          </header>
+<!-- our product  -->
+      <h1 style="margin-left: 10%;">Our Products</h1>
     
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone5.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">88.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone8.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">78.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone7.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">98.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone11.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">58.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone12.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">48.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone13.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">67.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone14.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">95.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-        <div class="card">
-            <img src="./img/headphone15.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">95.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
-
-
-
-        <div class="card">
-            <img src="./img/headphone5.jpg" alt="Product Image" class="product-image">
-            <div class="product-details">
-                <h2 class="product-title">Name</h2>
-                <p class="product-pricr"> this is the short description of the product. its a great product that solves many problem</p>
-                <p class="product-price">95.99</p>
-                <a href="#" class="buy-button">Buy Now</a>
-    
-            </div>
-        </div>
+<!-- cart section start  -->
+ <!-- 1st line -->
+<div class="ecard">
+ <div class="card">
+   <img src="./img/headphone5.jpg" alt="Product Image" class="product-image">
+   <div class="product-details">
+       <h2 class="product-title">Product Name</h2>
+       <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+       <p class="product-price">$49.99</p>
+       <a href="#" class="buy-button">Buy Now</a>
+   </div>
+</div>
+<div class="card">
+ <img src="./img/headphone4.jpg" alt="Product Image" class="product-image">
+ <div class="product-details">
+     <h2 class="product-title">Product Name</h2>
+     <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+     <p class="product-price">$49.99</p>
+     <a href="#" class="buy-button">Buy Now</a>
+ </div>
+</div>
+<div class="card">
+ <img src="./img/headphone6.jpg" alt="Product Image" class="product-image">
+ <div class="product-details">
+     <h2 class="product-title">Product Name</h2>
+     <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+     <p class="product-price">$49.99</p>
+     <a href="#" class="buy-button">Buy Now</a>
+ </div>
+</div>
+<div class="card">
+    <img src="./img/headphone7.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
     </div>
-
-
-<!-- This is a footer -->
-
-<!-- <footer>
-    <div class="footer">
-        <div class="footer1">
-            <h4>Help</h4>
-            <p>Support us</p>
-            <p>FAQ's</p>
-            <p>Terms and Condition</p>
-            <p>Privacy Policy</p>
-        </div>
-        <div  class="footer2">
-            <h4>COMPANY</h4>
-            <p><a href="/" >Home</a></p>
-            <p><a href="/contact.html">Contact</a></p>
-            <p><a href="/product.html">Product</a></p>
-            <p><a href="/about.html">About</a></p>
-        </div>
-
-
-    
+</div>
+</div>
+<!-- 2nd line -->
+<div class="ecard">
+   
+ <div class="card">
+   <img src="./img/headphone4.jpg" alt="Product Image" class="product-image">
+   <div class="product-details">
+       <h2 class="product-title">Product Name</h2>
+       <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+       <p class="product-price">$49.99</p>
+       <a href="#" class="buy-button">Buy Now</a>
+   </div>
+</div>
+<div class="card">
+ <img src="./img/headphone8.jpg" alt="Product Image" class="product-image">
+ <div class="product-details">
+     <h2 class="product-title">Product Name</h2>
+     <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+     <p class="product-price">$49.99</p>
+     <a href="#" class="buy-button">Buy Now</a>
+ </div>
+</div>
+<div class="card">
+ <img src="./img/headphone9.jpeg" alt="Product Image" class="product-image">
+ <div class="product-details">
+     <h2 class="product-title">Product Name</h2>
+     <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+     <p class="product-price">$49.99</p>
+     <a href="#" class="buy-button">Buy Now</a>
+ </div>
+</div>
+<div class="card">
+    <img src="./img/headphone10.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
+    </div>
+</div>
+</div>
+<!-- 3rd line -->
+<div class="ecard">
+   
+    <div class="card">
+      <img src="./img/headphone11.jpg" alt="Product Image" class="product-image">
+      <div class="product-details">
+          <h2 class="product-title">Product Name</h2>
+          <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+          <p class="product-price">$49.99</p>
+          <a href="#" class="buy-button">Buy Now</a>
+      </div>
+   </div>
+   
+   <div class="card">
+    <img src="./img/headphone12.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
+    </div>
+   </div>
+   
+   <div class="card">
+    <img src="./img/headphone5.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
+    </div>
+   </div>
+   
+   <div class="card">
+       <img src="./img/headphone4.jpg" alt="Product Image" class="product-image">
+       <div class="product-details">
+           <h2 class="product-title">Product Name</h2>
+           <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+           <p class="product-price">$49.99</p>
+           <a href="#" class="buy-button">Buy Now</a>
+       </div>
+   </div>
+   </div>
+   <!-- 4TH line -->
+<div class="ecard">
+   
+  <div class="card">
+    <img src="./img/headphone10.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
+    </div>
+ </div>
+ 
+ <div class="card">
+  <img src="./img/headphone8.jpg" alt="Product Image" class="product-image">
+  <div class="product-details">
+      <h2 class="product-title">Product Name</h2>
+      <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+      <p class="product-price">$49.99</p>
+      <a href="#" class="buy-button">Buy Now</a>
+  </div>
+ </div>
+ 
+ <div class="card">
+  <img src="./img/headphone7.jpg" alt="Product Image" class="product-image">
+  <div class="product-details">
+      <h2 class="product-title">Product Name</h2>
+      <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+      <p class="product-price">$49.99</p>
+      <a href="#" class="buy-button">Buy Now</a>
+  </div>
+ </div>
+ 
+ <div class="card">
+     <img src="./img/headphone9.jpeg" alt="Product Image" class="product-image">
+     <div class="product-details">
+         <h2 class="product-title">Product Name</h2>
+         <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+         <p class="product-price">$49.99</p>
+         <a href="#" class="buy-button">Buy Now</a>
+     </div>
+ </div>
+ </div>
+<!-- This is a footer section  -->
+<footer>
+  <div class="footer">
+    <div class="footer1">
+      <h4>HELP</h4>
+      <p>Support us</p>
+      <p>FAQ's</p>
+      <p>Terms and conditions</p>
+      <p>Privacy policy</p>
+    </div>
+    <div class="footer2">
+      <h4>COMPANY</h4>
+      <p><a href="/" >Home</a></p>
+      <p><a href="/contact.html" >Contact</a></p>
+      <p><a href="/Product.html" >Product</a></p>
+      <p><a href="/about.html">About</a></p>
+  </div>
+  
     <div class="footer3">
-        <h4>SOCIAL MEDIA</h4>
-        <div class="ftr1" style="padding-bottom: 15px">
-          <img
-            class="icn icnFb"
-            src="./img/facebook-logo.png"
-            height="25"
-            alt="facebook"
-          />
-          <img
-            class="icn icnIg"
-            src="./img/instagram-logo.png"
-            height="25"
-            alt="instagram"
-          />
-          <img
-            class="icn icnTw"
-            src="./img/twitter-logo.png"
-            height="25"
-            alt="twitter"
-          />
-        </div>
-        <div class="ftr2">
-          <img src="./img/logo.png" height="40" alt="footerLogo" />
-        </div>
+      <h4>SOCIAL MEDIA</h4>
+      <div class="ftr1" style="padding-bottom: 15px">
+        <img
+          class="icn icnFb"
+          src="./img/facebook-logo.png"
+          height="25"
+          alt="facebook"
+        />
+        <img
+          class="icn icnIg"
+          src="./img/instagram-logo.png"
+          height="25"
+          alt="instagram"
+        />
+        <img
+          class="icn icnTw"
+          src="./img/twitter-logo.png"
+          height="25"
+          alt="twitter"
+        />
       </div>
+      <div class="ftr2">
+        <img src="./img/logo.png" height="40" alt="footerLogo" />
       </div>
-
-</footer> -->
+    </div>
+  </div>
+</footer>
 </body>
-
 </html>
-<!-- to make in a horizantal way we use display flex -->
-
-<!-- vw menas view widh aartyouthit.com -->
