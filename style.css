@@ -305,17 +305,22 @@ input[ty]
 /* footer section */
 
 
- .footer {
+ /* footer {
+    display: none;
     width: 100%;
     padding-top: 3em;
     padding-bottom: 5em;
-    display: flex;
     align-items: center;
+    justify-content: center;
+  } */
+footer{
+    display: flex;
+    width: 100%;
+    padding-top: 3em;
+    align-items: center;
+    padding-bottom: 5em;
     justify-content: space-around;
-    flex-direction: column;
-  }
-
- 
+}
   
   .footer h4 {
     margin-bottom: 15px;
